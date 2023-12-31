@@ -1,5 +1,5 @@
-package org.example;
+package org.example.converters;
 
 public abstract interface BaseTempConverter {
-    public abstract double convert(int degreesCelsius);
+    public abstract double convert(double degreesCelsius);
 }
